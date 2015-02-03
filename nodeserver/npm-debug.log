@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'jsupm_i2clcd' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'jsupm_i2clcd', null ]
+5 verbose cache add name=undefined spec="jsupm_i2clcd" args=["jsupm_i2clcd",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'jsupm_i2clcd',
+6 verbose parsed url   path: 'jsupm_i2clcd',
+6 verbose parsed url   href: 'jsupm_i2clcd' }
+7 silly makeCacheDir cache dir uid, gid [ 0, 0 ]
+8 silly lockFile d1e76814-jsupm-i2clcd jsupm_i2clcd
+9 verbose lock jsupm_i2clcd /home/root/.npm/d1e76814-jsupm-i2clcd.lock
+10 silly lockFile d1e76814-jsupm-i2clcd jsupm_i2clcd
+11 silly lockFile d1e76814-jsupm-i2clcd jsupm_i2clcd
+12 verbose addNamed [ 'jsupm_i2clcd', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile b57f1cab-jsupm-i2clcd jsupm_i2clcd@
+15 verbose lock jsupm_i2clcd@ /home/root/.npm/b57f1cab-jsupm-i2clcd.lock
+16 silly addNameRange { name: 'jsupm_i2clcd', range: '*', hasData: false }
+17 verbose url raw jsupm_i2clcd
+18 verbose url resolving [ 'https://registry.npmjs.org/', './jsupm_i2clcd' ]
+19 verbose url resolved https://registry.npmjs.org/jsupm_i2clcd
+20 info trying registry request attempt 1 at 23:52:22
+21 http GET https://registry.npmjs.org/jsupm_i2clcd
+22 http 404 https://registry.npmjs.org/jsupm_i2clcd
+23 verbose headers { date: 'Sat, 31 Jan 2015 23:52:22 GMT',
+23 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'cache-control': 'max-age=0',
+23 verbose headers   'content-length': '52',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   age: '0',
+23 verbose headers   'x-served-by': 'cache-atl6226-ATL',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1422748342.958105,VS0,VE24',
+23 verbose headers   'keep-alive': 'timeout=10, max=50',
+23 verbose headers   connection: 'Keep-Alive' }
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Sat, 31 Jan 2015 23:52:22 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-atl6226-ATL',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1422748342.958105,VS0,VE24',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile b57f1cab-jsupm-i2clcd jsupm_i2clcd@
+26 silly lockFile b57f1cab-jsupm-i2clcd jsupm_i2clcd@
+27 error 404 404 Not Found: jsupm_i2clcd
+27 error 404
+27 error 404 'jsupm_i2clcd' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Linux 3.10.17-poky-edison+
+29 error command "/usr/bin/node" "/usr/bin/npm" "install" "jsupm_i2clcd"
+30 error cwd /home/root/nodeserver
+31 error node -v v0.10.28
+32 error npm -v 1.4.9
+33 error code E404
+34 verbose exit [ 1, true ]
